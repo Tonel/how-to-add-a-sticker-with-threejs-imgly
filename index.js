@@ -55,7 +55,7 @@ const imageMesh = new THREE.Mesh(stickerGeometry, stickerMaterial);
 scene.add(imageMesh);
 
 // adjust the position and rotation of the sticker mesh
-// by setting the z-coordinate to 1
+// by setting the y-coordinate to 1
 // in order for the sticker to rest on the texture
 imageMesh.position.set(0, 1, 0);
 
